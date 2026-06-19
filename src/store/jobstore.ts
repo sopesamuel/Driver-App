@@ -1,5 +1,6 @@
 import { create } from 'zustand';
 import { Job } from '../types';
+import { mockJobs } from '../data/mockJobs';
 
 type JobStore = {
   availableJobs: Job[];
@@ -9,7 +10,7 @@ type JobStore = {
 };
 
 export const useJobStore = create<JobStore>((set) => ({
-  availableJobs: [],
+  availableJobs: mockJobs,
   myJobs: [],
 
   acceptJob: (job) =>
