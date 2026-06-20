@@ -23,6 +23,18 @@
     },
     "plugins": [
       "expo-font"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "b5831a17-7f02-45fd-9f96-630dc46406f1"
+      }
+    },
+    "owner": "sopesamuel",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/b5831a17-7f02-45fd-9f96-630dc46406f1"
+    }
   }
 }
