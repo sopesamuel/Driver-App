@@ -6,6 +6,12 @@ The app covers the full driver workflow, including viewing available jobs and up
 
 ## Architecture
 
+
+
+https://github.com/user-attachments/assets/c335333d-d96d-42cb-be1b-795147072dc9
+
+
+
 State management:
 To solve for the purpose of state management I used Zustand instead of Context API or Redux because of its simplicity and because of some of its middleware features like Asyncstorage that allows local persistence without writing manual save/load logic.
 
