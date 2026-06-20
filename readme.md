@@ -4,13 +4,9 @@ This app uses React Native with Expo for the mobile frontend. Given the project'
 ## Features
 The app covers the full driver workflow, including viewing available jobs and updating their status as accepted, picked up, and delivered using checkboxes.
 
-## Architecture
-
-
-
 https://github.com/user-attachments/assets/c335333d-d96d-42cb-be1b-795147072dc9
 
-
+## Architecture
 
 State management:
 To solve for the purpose of state management I used Zustand instead of Context API or Redux because of its simplicity and because of some of its middleware features like Asyncstorage that allows local persistence without writing manual save/load logic.
