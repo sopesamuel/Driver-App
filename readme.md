@@ -24,6 +24,7 @@ Job data is stored locally using AsyncStorage through Zustand's persist middlewa
 Screen structure: The three core screens are JobFeedScreen, MyJobsScreen, and JobDetailScreen. Each screen has a focused responsibility, keeping the application structure simple, maintainable, and easy to understand.
 
 ## Project structure
+```
 driver-app/
 ├── App.tsx                 # Entry point 
 ├── src/
@@ -45,7 +46,7 @@ driver-app/
 │       └── index.ts         # Colors, spacing, fonts — shared design tokens
 ├── jest.setup.js            # Mocks AsyncStorage for tests
 └── package.json
-
+```
 ## How to run
 
 Prerequisites: You’ll need Node.js and npm (or yarn) installed to run this project.
