@@ -10,7 +10,7 @@ State management:
 To solve for the purpose of state management I used Zustand instead of Context API or Redux because of its simplicity and because of some of its middleware features like Asyncstorage that allows local persistence without writing manual save/load logic.
 
 Navigation:
-The app uses a Stack navigator wrapping a Tab navigator because 
+The app uses a Stack navigator wrapping a Tab navigator.
 
 Data persistence:
 Job data is stored locally using AsyncStorage through Zustand's persist middleware. This ensures that job status updates remain available after refreshing or restarting the app, providing a more realistic user experience while using a temporary mock-data solution.
